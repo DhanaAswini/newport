@@ -1,0 +1,84 @@
+.nav {
+  display: flex;
+  color: white;
+  font-size: 19px;
+}
+
+.title {
+  padding-left: 2.6%;
+}
+
+.contents {
+  display: flex;
+  padding-left: 6%;
+  gap: 50px;
+  padding-top: 12px;
+}
+
+.icons {
+  display: flex;
+  padding-left: 30%;
+  gap: 70px;
+  padding-top: 2%;
+}
+
+.last {
+  padding-left: 4%;
+  padding-top: 1.8%;
+}
+
+.im {
+  float: left;
+  padding-left: 40px;
+  padding-top: 67px;
+  padding-right: 40px;
+}
+
+.txt {
+  display: block;
+  text-align: left;
+  font-size: 40px;
+  padding-top: 180px;
+  color: white;
+}
+
+.txt p {
+  padding-top: 1px;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.con2 {
+  color: white;
+}
+
+.con2:hover {
+  color: #7df9ff;
+  font-weight: bold;
+}
+
+.con2:active {
+  color: #7df9ff;
+}
+
+.ic {
+  color: white;
+}
+
+.ic:hover {
+  color: #7df9ff;
+}
+
+.res {
+  cursor: pointer;
+  padding: 4px 10px 4px 10px;
+  background-color: #7df9ff;
+  font-weight: bold;
+}
+
+:target {
+  color: red;
+}

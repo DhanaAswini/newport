@@ -1,0 +1,75 @@
+.flex-cont {
+  display: flex;
+  height: 50%;
+  width: 20%;
+  gap: 40%;
+  padding: 1% 40% 3.5% 10%;
+  color: dark blue;
+  /*background-color: black;*/
+}
+
+.box1,
+.box2,
+.box3 {
+  align-items: center;
+  background-color: #fff;
+  padding: 2% 25% 2% 25%;
+  border-style: solid;
+  border-width: 4px;
+  border-color: #7df9ff;
+  transition: transform 0.3s ease-in-out;
+}
+
+.box1:hover {
+  transform: scale(1.2);
+}
+
+.box2:hover {
+  transform: scale(1.2);
+}
+
+.box3:hover {
+  transform: scale(1.2);
+}
+
+body {
+  background-image: url("/assets/images/waves.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hd1 {
+  font-family: tw cen mt;
+  text-align: center;
+  margin-top: 3%;
+  text-decoration: underline;
+  font-size: 50px;
+  color: #7df9ff;
+}
+
+.p1,
+.p2,
+.p3 {
+  list-style-type: none;
+  width: 130px;
+  height: 200px;
+  color: #002395;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+}
+
+.f1,
+.f2,
+.f3 {
+  color: #002395;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  text-align: center;
+  font-size: 25px;
+  text-decoration: dotted;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.i1 {
+  display: inline-block;
+}

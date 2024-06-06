@@ -1,0 +1,25 @@
+body {
+  background-image: url("/assets/images/waves.jpeg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.cme {
+  cursor: pointer;
+  padding: 8px 30px 8px 30px;
+  background-color: #7df9ff;
+  font-weight: bold;
+}
+
+#p1 {
+  font-size: large;
+}
+
+.col {
+  display: flex;
+}
+
+.tile {
+  padding-left: 2%;
+  color: #ff6fff;
+}
